@@ -22,4 +22,4 @@ git push: this command will send a commit
 
 # Materials
 
-book: 
+book: "Quantum Computation and Quantum Information" by Michael A. Nielsen and Isaac L. Chuang
