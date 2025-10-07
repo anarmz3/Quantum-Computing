@@ -19,6 +19,7 @@ git commit -m "<message>": this command will explain what goes in the commit
 
 git push: this command will send a commit
 
+git reset --hard HEAD: when two local files are updated at the same time, we need to use this comment
 
 # Materials
 
