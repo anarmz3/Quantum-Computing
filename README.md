@@ -21,6 +21,10 @@ git push: this command will send a commit
 
 git reset --hard HEAD: when two local files are updated at the same time, we need to use this comment
 
+git log : tell us what was the latest updates 
+
+q : will kill the process and bring you back to the terminal
+
 # Materials
 
 book: "Quantum Computation and Quantum Information" by Michael A. Nielsen and Isaac L. Chuang
