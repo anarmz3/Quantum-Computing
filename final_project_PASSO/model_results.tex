@@ -1,0 +1,20 @@
+\begin{table}[ht]
+\centering
+\caption{Performance Comparison of Quantum and Classical Models}
+\label{tab:model_results}
+\resizebox{0.5\textwidth}{!}{
+\begin{tabular}{|l|c|c|c|c|c|c|}
+\hline
+\textbf{Model} & \textbf{Accuracy} & \textbf{Precision} & \textbf{Sensitivity} & \textbf{Specificity} & \textbf{F1 Score} & \textbf{Time (s)} \\
+\hline
+QSVC + FQK & 0.8831 & 0.9167 & 0.5789 & 0.9828 & 0.7097 & 2.6085 \\
+SVC + RBF & 0.8442 & 1.0000 & 0.3684 & 1.0000 & 0.5385 & 0.0037 \\
+SVC + FQK + Callable & 0.8831 & 0.9167 & 0.5789 & 0.9828 & 0.7097 & 2.7557 \\
+SVC + FQK + Precomputed & 0.8831 & 0.9167 & 0.5789 & 0.9828 & 0.7097 & 0.0022 \\
+QSVC + TQK & 0.7922 & 0.7143 & 0.2632 & 0.9655 & 0.3846 & 12.4060 \\
+SVC + TQK + Callable & 0.7532 & 0.0000 & 0.0000 & 1.0000 & 0.0000 & 11.0837 \\
+SVC + TQK + Precompute & 0.8571 & 0.8333 & 0.5263 & 0.9655 & 0.6452 & 0.0037 \\
+\hline
+\end{tabular}
+}
+\end{table}
